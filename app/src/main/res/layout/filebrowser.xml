@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FF0"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textSize="25dp"
+        android:text="All in All File Explorer"
+        tools:context=".FileBrowser"
+        android:textColor="#FF0000"/>
+
+    <TextView
+        android:id="@+id/current_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:context=".FileBrowser"
+        android:textColor="#FF0000"/>
+
+    <ListView
+        android:id="@+id/file_browser_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+
+
+
+</LinearLayout>

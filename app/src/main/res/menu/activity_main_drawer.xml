@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:title="communicate">
+        <item
+            android:id="@+id/nav_call"
+            android:title="Phone"
+            />
+        <item
+            android:id="@+id/nav_message"
+            android:title="Message" />
+    </group>
+    <group android:title="Media player">
+        <item
+            android:id="@+id/camera"
+            android:title="Camera" />
+        <item android:id="@+id/nav_mp3"
+            android:title="Mp3 player" />
+        <item android:id="@+id/nav_mp4"
+            android:title="Video player" />
+        <item android:id="@+id/file"
+            android:title="File Explorer" />
+    </group>
+    <group android:title="Query">
+        <item android:id="@+id/nav_se"
+            android:title="Browser" />
+        <item
+            android:id="@+id/nav_map"
+            android:title="Map"/>
+    </group>
+</menu>
